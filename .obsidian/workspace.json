@@ -50,6 +50,18 @@
             }
           },
           {
+            "id": "37a495af6c218c16",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.10.3"
+            }
+          },
+          {
             "id": "3521c675b84ea063",
             "type": "leaf",
             "state": {
@@ -128,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -281,7 +293,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4338642b98dbccbc",
+  "active": "37a495af6c218c16",
   "lastOpenFiles": [
     "전공/DevOps/docker/도커 문법/볼륨.md",
     "전공/DevOps/docker/dockerfile/dms 도커 파일.md",
