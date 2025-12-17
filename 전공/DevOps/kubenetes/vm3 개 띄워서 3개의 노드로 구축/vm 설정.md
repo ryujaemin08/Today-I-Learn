@@ -48,3 +48,22 @@ kubeadm join 10.100.0.104:6443 --token 862xjc.0y2t7twl0uppt1u6 \
 
 ```
 
+
+
+10. master node 에서 실행 
+kubernetes 에서 생성한 admin 인증서? 같은 파일을 master 의 사용자 파일 시스템에 복사해놓는 작업.
+```
+mkdir -p $HOME/.kube
+cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+chown $(id -u):$(id -g) $HOME/.kube/config
+
+```
+
+11. cnl 설치
+
+```
+kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.27.0/manifests/calico.yaml
+
+```
+
+pod 한테 ip 부여하고, pod 끼리 통신 할 수 있도록 하는 외부 구현체
