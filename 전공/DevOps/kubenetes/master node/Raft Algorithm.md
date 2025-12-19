@@ -4,12 +4,12 @@ leader node 를 선출하고, leader node 의 etcd 에서 수정이 일어날시
 leader node 포함 과반수 이상이 최신의 로그를 가지고 있으면 해당 변경사항을 commit 한다(최소 과반수 이상이 최신의 변경사항을 가질 수 있도록). 
 commit 이 된 경우 follower 에선 해당 명령의 로그를 실행하여 결과물을 kv 저장소에 저장한다.
 
-만약 leader node 가 네트워크 단절, 서버 다운 등으로 heart beat 를 발생하지 못하게 되면 가장 처음으로 heart beat 못받아 election timeout 이 된 노드 자기 자신이 candidate(후보자) 가 된다. 
+만약 leader node 가 네트워크 단절, 서버 다운 등으로 heart beat 를 발생하지 못하게 되면 가장 처음으로 election timeout 이 된 노드 자기 자신이 turm 값을 1 올리고 (후보자 였는지 확인하는 역활 + 예전 leader 강등시키기 위해) candidate(후보자) 가 된다. 
 후보자 자기 자신은 자신을 투표하고, 다른 노드는 후보자의 로그 index 가 자신보다 크거나 같으면(자신의 변경사항보다 최신이거나 같으면) leader 로 투표한다. 
-과반수 이상 투표를 받을시 turm 값을 1 올리고 후보자가 leader 가 된다. 
+과반수 이상 투표를 받을시 후보자가 leader 가 된다. 
 만약 과반수 이상 투표를 받지 못할시 그 다음으로 election timout 된 노드가 후보자가 된다. 
 
-만약 끊켰던 네트워크가 다시 복구되는 식으로 예전 leader 가 돌아오면 turm 값이 현재 leader 보다 낮음으로 follpwer 로 강등된다.
+만약 끊켰던 네트워크가 다시 복구되는 식으로 예전 leader 가 돌아오면 turm 값이 현재 leader 보다 낮음으로 follower 로 강등된다.
 
 
 이 알고리즘은 노드가 홀수일때 가장 효율적이다.(짝수는 안쓴다.)
