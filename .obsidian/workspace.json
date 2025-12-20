@@ -309,8 +309,9 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0f66b33c37526ca4",
+  "active": "52f6da4c6740bd03",
   "lastOpenFiles": [
+    "전공/back-end/무제 1",
     "전공/DevOps/kubenetes/master node",
     "전공/DevOps/kubenetes/실습/EC2 에서 k3s 써서 배포.md",
     "전공/DevOps/kubenetes/master node/Raft Algorithm.md",
@@ -346,7 +347,6 @@
     "전공/OS",
     "전공/DevOps/docker/도커 문법",
     "전공/언어/kotiln/문법/타입",
-    "전공/DevOps/grpc",
     "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
     "전공/이미지/2.png",
     "전공/이미지/Pasted image 20250814222124.png",
