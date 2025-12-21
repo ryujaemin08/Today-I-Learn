@@ -1,8 +1,8 @@
 
 
 
-```
- OpenJDK 공식 소스 (요약, 핵심만)
+```java
+// OpenJDK 공식 소스 (요약, 핵심만)
 public RunnableScheduledFuture<?> take() throws InterruptedException {
     for (;;) {
         RunnableScheduledFuture<?> first = queue[0];
