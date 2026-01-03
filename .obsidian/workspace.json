@@ -311,10 +311,10 @@
   },
   "active": "0f66b33c37526ca4",
   "lastOpenFiles": [
-    "전공/back-end/testcode/F.I.R.S.T 원칙.md",
-    "전공/back-end/testcode/Fake vs mock.md",
     "전공/back-end/testcode/mockMVC.md",
     "전공/back-end/testcode/테스트 종류.md",
+    "전공/back-end/testcode/Fake vs mock.md",
+    "전공/back-end/testcode/F.I.R.S.T 원칙.md",
     "전공/DevOps/docker/도커 문법/이미지, 컨테이너.md",
     "전공/DevOps/docker/이미지.md",
     "전공/DevOps/배포/스프링 프로젝트 doker + EC2 로 배포.md",
