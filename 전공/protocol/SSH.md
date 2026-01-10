@@ -18,7 +18,7 @@ ssh 는 하나의 tcp 연결 위에서 3개의 레이어를 걸쳐서 연결된�
  임시 포트에 띄워저 있는 클라 tcp soket -> 22 번 포트에 띄워져 있는 서버 tcp soket
  3 way handsake 로 연결함.
 
-tcp 레이어 3개를 거쳐서 클라와 sshd 랑 연결함. 
+SSH 레이어 3개를 거쳐서 클라와 sshd 랑 연결함. 
 
 클라에서 요청보내면 22 번 포트의 tcp soket 이 받고 sshd 한테 넘겨줘서 sshd 가 쉘 명령어 입력하고, 결과 데이터를 클라의 임시포트의 tcp soket 한테 보냄.
 
