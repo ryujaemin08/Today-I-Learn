@@ -9,8 +9,7 @@ ssh 는 하나의 tcp 연결 위에서 3개의 레이어를 걸쳐서 연결된�
 2. user Authentication layer
 		os 유저중 어느 유저로 로그인할것인지 로그인을 진행한다. 아직 shell 을 실행시킨건 아니다. 
 3. connection layer
-		User Authentication layer 에서 얻은 로그인 정보를 shell 을 실행시킬때 포함해서 그 유저로 자동으로 로그인 된 상태의 shell 이랑 연결한다.
-
+		User Authentication layer 에서 얻은 uid
 
 # os socket 포함 구조
 
