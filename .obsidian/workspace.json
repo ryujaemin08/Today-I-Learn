@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강연/선배의 강연/석진선배/석진선배 & 코파운더 동업자분.md",
+                "file": "강연/점프업 캠프/4시간 강의.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "석진선배 & 코파운더 동업자분"
+              "title": "4시간 강의"
             }
           }
         ]
@@ -177,6 +177,8 @@
   "active": "0f66b33c37526ca4",
   "lastOpenFiles": [
     "강연/선배의 강연/석진선배/석진선배 & 코파운더 동업자분.md",
+    "강연/점프업 캠프/4시간 강의.md",
+    "강연/점프업 캠프",
     "전공/protocol/SSH.md",
     "강연/선배의 강연/석진선배",
     "전공/back-end/testcode/Fake vs mock.md",
@@ -209,9 +211,7 @@
     "전공/언어/Java/Java 구조/JVM.md",
     "전공/back-end/DataBase/동시성 제어",
     "전공/언어/Java/Java 구조/jar 파일.md",
-    "전공/언어/Java/문법/UpCasting, DownCasting.md",
     "전공/OS/리눅스",
-    "전공/OS",
     "전공/이미지/칠판맨토링/Pasted image 20240703214715.png",
     "전공/이미지/2.png",
     "전공/이미지/Pasted image 20250814222124.png",
