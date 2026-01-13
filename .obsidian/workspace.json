@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "강연/점프업 캠프/4시간 강의.md",
+                "file": "전공/네트워크/virtualbox nat network.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4시간 강의"
+              "title": "virtualbox nat network"
             }
           }
         ]
@@ -176,8 +176,8 @@
   },
   "active": "0f66b33c37526ca4",
   "lastOpenFiles": [
-    "강연/선배의 강연/석진선배/석진선배 & 코파운더 동업자분.md",
     "강연/점프업 캠프/4시간 강의.md",
+    "강연/선배의 강연/석진선배/석진선배 & 코파운더 동업자분.md",
     "강연/점프업 캠프",
     "전공/protocol/SSH.md",
     "강연/선배의 강연/석진선배",
