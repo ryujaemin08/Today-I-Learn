@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "mockMVC"
             }
+          },
+          {
+            "id": "1be375b86c53ca06",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -174,7 +187,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0f66b33c37526ca4",
+  "active": "1be375b86c53ca06",
   "lastOpenFiles": [
     "전공/back-end/testcode/Fake vs mock.md",
     "전공/back-end/testcode/F.I.R.S.T 원칙.md",
