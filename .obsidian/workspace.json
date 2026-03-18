@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/back-end/CGI.md",
+                "file": "전공/언어/Java/Servlet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CGI"
+              "title": "Servlet"
             }
           }
         ],
@@ -219,8 +219,12 @@
   },
   "active": "5b05ca609829b83d",
   "lastOpenFiles": [
-    "전공/해쉬/HMAC.md",
+    "전공/언어/Java/메서드 참조.md",
+    "전공/언어/Java/Servlet.md",
+    "전공/언어/Java/POJO.md",
+    "전공/언어/Java/JDBC.md",
     "전공/back-end/CGI.md",
+    "전공/해쉬/HMAC.md",
     "전공/back-end/Spring/Spring MVC.md",
     "전공/3장 노드 기능 알아보기.md",
     "전공/옵시디언 문법.md",
@@ -242,10 +246,6 @@
     "전공/back-end/JWT/JWT가 저장되는 위치.md",
     "전공/back-end/JWT/JWT.md",
     "전공/back-end/JDK/TaskScheduler.md",
-    "전공/back-end/DataBase/dump/dump.md",
-    "전공/back-end/DataBase/flyway/flyway repair.md",
-    "전공/back-end/DataBase/데이터 모델링.md",
-    "전공/back-end/DataBase/관계형 데이터베이스(RDB).md",
     "전공/이미지/4.png",
     "전공/이미지/3.png",
     "전공/이미지/2.png",
