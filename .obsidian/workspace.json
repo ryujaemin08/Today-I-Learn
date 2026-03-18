@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "전공/언어/Java/Servlet Container.md",
+                "file": "전공/언어/Java/Servlet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Servlet Container"
+              "title": "Servlet"
             }
           }
         ],
@@ -219,11 +219,11 @@
   },
   "active": "5b05ca609829b83d",
   "lastOpenFiles": [
-    "전공/언어/Java/Servlet.md",
-    "전공/언어/Java/Servlet Container.md",
     "전공/언어/Java/메서드 참조.md",
-    "전공/언어/Java/POJO.md",
     "전공/언어/Java/JDBC.md",
+    "전공/언어/Java/Servlet.md",
+    "전공/언어/Java/POJO.md",
+    "전공/언어/Java/Servlet Container.md",
     "전공/back-end/CGI.md",
     "전공/해쉬/HMAC.md",
     "전공/back-end/Spring/Spring MVC.md",
